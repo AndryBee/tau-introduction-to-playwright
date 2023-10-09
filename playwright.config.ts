@@ -69,13 +69,13 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'chromium',
-      use: { 
-        ...devices['Desktop Chrome'],
-        // viewport: { width: 1280, height: 720 },
-      },
-    },
+    // {
+    //   name: 'chromium',
+    //   use: { 
+    //     ...devices['Desktop Chrome'],
+    //     // viewport: { width: 1280, height: 720 },
+    //   },
+    // },
 
     {
       name: 'firefox',
@@ -87,13 +87,13 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
-    {
-      name: 'all-browsers-and-tests',
-      use: { 
-        baseURL: 'https://playwright.dev/',
-         ...devices['Desktop Chrome']
-      },
-    },
+    // {
+    //   name: 'all-browsers-and-tests',
+    //   use: { 
+    //     baseURL: 'https://playwright.dev/',
+    //      ...devices['Desktop Chrome']
+    //   },
+    // },
 
     {
       name: 'all-browsers-and-tests',
